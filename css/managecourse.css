@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#menu {
+	background-color: #C0C0C0;
+	width:100%;
+	border-top:3px solid tomato;
+}
+
+
+#menu ul {
+	
+	list-style:none;
+}
+
+
+#menu li {
+	
+	display:inline-block;
+}
+
+
+#menu li a {
+	
+	display:block;
+	padding:15px 20px;
+	font:15px thoma, arial;
+	color:#fff; 
+	text-decoration:none;
+	}
+
+#menu li a img {
+	
+	margin-right: 10px;
+	}
+
+#menu li a:hover {
+	
+	background:tomato;
+	transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-ms-transition-duration:0.5s;
+	-o-transition-duration:0.5s;
+}
+
+
+
+
+#menu li ul {
+	text-align:left;
+	display:none;
+	position:absolute;
+	background:#C0C0C0;
+	width:180px;
+}
+
+
+#menu li:hover ul {
+	
+	display:block;
+}
+
+
+#menu li ul li {
+	
+	display:block;
+}
+#menu #login{
+	float: right;
+	margin-right: 50px;
+	
+}
+#menu #login a:hover{
+	background-color: #C0C0C0;
+}
+
+#courseinfo{
+	margin-top: 150px;
+	margin-left: 50px;
+	float: left;
+}
+#courseinfo button{
+	margin-right: 5px;
+	margin-left: 10px;
+	width: 100px;
+	height: 30px;
+}
+#coursetable{
+	float: left;
+	margin-left: 200px;
+	
+	
+}#coursetable #course_table {
+	margin-top: 100px;
+	border-collapse: collapse;
+	max-height: 450px;
+    overflow: scroll;
+	
+}
+#coursetable #course_table th {
+	width: 100px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #coursetable #course_table tr:hover {
+          background-color: #ffff99;
+        }

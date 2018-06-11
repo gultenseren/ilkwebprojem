@@ -1,0 +1,316 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#menu {
+	background-color: #eed5d2;
+	width:100%;
+	border-top:3px solid tomato;
+}
+
+
+#menu ul {
+	
+	list-style:none;
+}
+
+
+#menu li {
+	
+	display:inline-block;
+}
+
+
+#menu li a {
+	
+	display:block;
+	padding:15px 20px;
+	font:15px thoma, arial;
+	color:#fff; 
+	text-decoration:none;
+	}
+
+#menu li a img {
+	
+	margin-right: 10px;
+	}
+
+#menu li a:hover {
+	
+	background:tomato;
+	transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-ms-transition-duration:0.5s;
+	-o-transition-duration:0.5s;
+}
+
+
+
+
+#menu li ul {
+	text-align:left;
+	display:none;
+	position:absolute;
+	background:#8a8a8a;
+	width:180px;
+}
+
+
+#menu li:hover ul {
+	
+	display:block;
+}
+
+
+#menu li ul li {
+	
+	display:block;
+}
+#menu #login{
+	float: right;
+	margin-right: 50px;
+	
+}
+#menu #login a:hover{
+	background-color: #eed5d2;
+}
+
+#tablestudent{
+	margin-top: 130px;
+	margin-left: 50px;
+	float: left;
+}
+#tablestudent button{
+	margin-right: 5px;
+	margin-left: 10px;
+	width: 100px;
+	height: 30px;
+}
+#studenttable{
+	float: right;
+	margin-right: 100px;
+	margin-top: 40px;	
+}
+#studenttable #search{
+	height:100px;
+	position: fixed;
+	
+}
+#studenttable #table {
+	margin-top: 50px;
+	border-collapse: collapse;
+	max-height: 450px;
+    overflow: scroll;
+	
+}
+#studenttable #table th {
+	width: 100px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #studenttable #table tr:hover {
+          background-color: #ffff99;
+        }
+#butoon{
+	float: right;
+	margin-right: 200px;
+}
+#butoon img{
+	margin-left: 30px;
+}
+#tablestudent{
+	width: 500px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+#tablestudent #table{
+	max-height: 450px;
+	overflow: scroll;
+}
+#tablestudent #table th {
+	width: 130px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #tablestudent #table tr:hover {
+          background-color: #ffff99;
+        }
+#tablestudent #table tr.selected {
+    background-color: aqua;
+}
+#tablecourse{
+	width: 300px;
+	float: right;
+	margin-right: 50px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+#tablecourse #table{
+	float: left;
+	max-height: 450px;
+	overflow: scroll;
+	width: 500px;
+	
+}
+#tablecourse #table th {
+	width: 130px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #tablecourse #table tr:hover {
+          background-color: #ffff99;
+        }
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#menu {
+	background-color: #eed5d2;
+	width:100%;
+	border-top:3px solid tomato;
+}
+
+
+#menu ul {
+	
+	list-style:none;
+}
+
+
+#menu li {
+	
+	display:inline-block;
+}
+
+
+#menu li a {
+	
+	display:block;
+	padding:15px 20px;
+	font:15px thoma, arial;
+	color:#fff; 
+	text-decoration:none;
+	}
+
+#menu li a img {
+	
+	margin-right: 10px;
+	}
+
+#menu li a:hover {
+	
+	background:tomato;
+	transition-duration:0.5s;
+	-webkit-transition-duration:0.5s;
+	-moz-transition-duration:0.5s;
+	-ms-transition-duration:0.5s;
+	-o-transition-duration:0.5s;
+}
+
+
+
+
+#menu li ul {
+	text-align:left;
+	display:none;
+	position:absolute;
+	background:#8a8a8a;
+	width:180px;
+}
+
+
+#menu li:hover ul {
+	
+	display:block;
+}
+
+
+#menu li ul li {
+	
+	display:block;
+}
+#menu #login{
+	float: right;
+	margin-right: 50px;
+	
+}
+#menu #login a:hover{
+	background-color: #eed5d2;
+}
+
+#tablestudent{
+	margin-top: 130px;
+	margin-left: 50px;
+	float: left;
+}
+#tablestudent button{
+	margin-right: 5px;
+	margin-left: 10px;
+	width: 100px;
+	height: 30px;
+}
+#studenttable{
+	float: right;
+	margin-right: 100px;
+	margin-top: 40px;	
+}
+#studenttable #search{
+	height:100px;
+	position: fixed;
+	
+}
+#studenttable #table {
+	margin-top: 50px;
+	border-collapse: collapse;
+	max-height: 450px;
+    overflow: scroll;
+	
+}
+#studenttable #table th {
+	width: 100px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #studenttable #table tr:hover {
+          background-color: #ffff99;
+        }
+#butoon{
+	float: right;
+	margin-right: 200px;
+}
+#butoon img{
+	margin-left: 30px;
+}
+
+#tablecourse{
+	width: 400px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#tablecourse #table{
+	float: left;
+	max-height: 450px;
+	overflow: scroll;
+	width: 500px;
+	
+}
+#tablecourse #table th {
+	width: 130px;
+	border: 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+ #tablecourse #table tr:hover {
+          background-color: #ffff99;
+        }
